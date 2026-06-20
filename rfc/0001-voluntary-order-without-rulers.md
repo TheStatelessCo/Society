@@ -39,21 +39,21 @@ Any system violating these constraints fails qualification as stateless under th
 ### Purpose
 
 This RFC proposes a structural classification model for stateless systems grounded in a single invariant:
+
 Voluntary Order Without Rulers
 
 The purpose of this document is not to advocate a particular economic system, cultural identity, institutional arrangement, or political faction.
 
 Its purpose is narrower:
+
 To determine the minimal structural conditions required for a system to qualify as stateless anarchism.
 
 This RFC attempts to operationalize anarchism as a structural model rather than a rhetorical label.
 
 The focus is therefore on classification:
-what qualifies,
-what fails qualification,
-and why.
+what qualifies, what fails qualification, and why.
 
-The invariant is treated as a constraint to be tested against social mechanisms, institutional forms, and coordination structures.
+The invariant is treated as a constraint to be tested against social mechanisms,institutional forms, and coordination structures.
 
 ### Scope
 
@@ -62,22 +62,22 @@ It does not prescribe implementation.
 
 Specifically, this RFC does not:
 
-define property norms,
-prescribe economic systems,
-define governance protocols,
-define justice systems,
-prescribe enforcement architectures,
-resolve historical transition problems,
-or mandate specific institutional forms.
+- define property norms 
+- prescribe economic systems
+- define governance protocols
+- define justice systems
+- prescribe enforcement architectures
+- resolve historical transition problems
 
+or mandate specific institutional forms. 
 Those are implementation-level concerns belonging to individual spoke systems.
 
 The purpose of this RFC is only to define the structural constraints those systems must satisfy in order to qualify as stateless under the invariant.
 
 This document therefore distinguishes between:
 
-the hub — the invariant and its constraints,
-and the spokes — implementation systems built within those constraints.
+- the hub: the invariant and its constraints
+- the spokes: implementation systems built within those constraints.
 
 The hub defines the boundary.
 The spokes define possible implementations.
@@ -87,16 +87,16 @@ The methodology used throughout this RFC is structural derivation through invari
 
 The process is consistent:
 
-Define a structural element.
-Apply the invariant.
-Stress-test the element under edge conditions.
-Identify failure modes.
-Evaluate whether the element preserves or violates voluntary order without rulers.
+- Define a structural element.
+- Apply the invariant.
+- Stress-test the element under edge conditions.
+- Identify failure modes.
+- Evaluate whether the element preserves or violates voluntary order without rulers.
 
 Results are evaluated through invariant compatibility:
 
-PASS → the structure preserves the invariant.
-FAIL → the structure introduces rulership, coercive authority, or invariant violation.
+- PASS → the structure preserves the invariant.
+- FAIL → the structure introduces rulership, coercive authority, or invariant violation.
 
 The analysis is intentionally structural rather than moral.
 
@@ -122,14 +122,10 @@ Portions of this RFC originated as a series of publicly released essays subjecte
 
 ## 1. Deriving the Invariant
 
-When defining a stateless system structurally, the first question is: what qualifies as one?
+When defining a stateless system structurally, the first question is: 
+what qualifies as one?
 
-Not the common meaning.
-Not emotional ideologies.
-Not economic systems.
-Not political preference.
-
-But the structural essence of what a stateless system is.
+Not the common meaning, not emotional ideologies, not economic systems, not political preference, but the structural essence of what a stateless system is.
 
 That is where this RFC begins.
 The derivation begins from structural primitives.
@@ -138,12 +134,10 @@ The purpose of this section is to derive the structural base — the invariant �
 
 The method is simple:
 
-Minimal premises.
-Follow logical necessity.
+- Minimal premises.
+- Follow logical necessity.
 
-No normative claims.
-No ideological references.
-No moral assertions.
+No normative claims. No ideological references. No moral assertions.
 
 Structure.
 Nothing more.
@@ -162,13 +156,12 @@ The following definitions serve as the structural base of the theorem.
 ### The Multi-Agent Condition
 
 At least two agents exist.
+
 Agents interact.
+
 Interaction creates the possibility of conflict.
-Persistent coordination among agents requires mechanisms for resolving conflict.
 
-No system of order can avoid this condition.
-
-Any theory of stateless coordination must therefore answer the structural problem of conflict resolution among autonomous agents.
+Persistent coordination among agents requires mechanisms for resolving conflict. No system of order can avoid this condition. Any theory of stateless coordination must therefore answer the structural problem of conflict resolution among autonomous agents.
 
 
 ### Resolution Mechanisms
@@ -179,16 +172,14 @@ Can one agent or rule-structure impose a binding outcome on another who does not
 All mechanisms reduce to one of two structural forms.
 
 
-A. Binding Without Agreement
+**A. Binding Without Agreement**
 
-One party, or rule-structure, imposes a binding outcome on another who does not agree.
-The bound party is obligated regardless of dissent.
+One party, or rule-structure, imposes a binding outcome on another who does not agree. The bound party is obligated regardless of dissent.
 
 
-B. Binding With Agreement
+**B. Binding With Agreement**
 
-A binding outcome arises only when affected parties participate in its formation.
-Participation is voluntary. Refusal results in non-participation, not obligation.
+A binding outcome arises only when affected parties participate in its formation. Participation is voluntary. Refusal results in non-participation, not obligation.
 
 Clarification:
 
@@ -211,9 +202,9 @@ This distinction precedes any moral framing.
 
 If binding without agreement is permitted:
 
-Authority asymmetry emerges.
-A binding hierarchy is created.
-The bound party no longer operates autonomously.
+- Authority asymmetry emerges.
+- A binding hierarchy is created.
+- The bound party no longer operates autonomously.
 
 Structural authority resides in the rule permitting such binding, not in the identity of the actor applying it. Rotation of office, majority vote, or temporary delegation does not eliminate authority; it merely redistributes access to it.
 
@@ -239,6 +230,7 @@ A ruler is not defined by title, scale, duration, or permanence — but by struc
 If a system permits binding without agreement:
 
 It contains structural authority.
+
 Structural authority constitutes rulership.
 
 It is not stateless.
@@ -263,9 +255,9 @@ Stability here refers specifically to the persistence of a stateless condition u
 
 If structural authority to bind without agreement exists:
 
-The binding rule can be invoked repeatedly.
-Repeated invocation produces persistent override capability.
-Persistent override capability constitutes durable structural authority.
+- The binding rule can be invoked repeatedly.
+- Repeated invocation produces persistent override capability.
+- Persistent override capability constitutes durable structural authority.
 
 A stateless system permitting binding without agreement contains a mechanism capable of negating its own stateless classification.
 
@@ -280,27 +272,27 @@ Stability therefore structurally requires prohibition of binding without agreeme
 
 The derived structure must remain internally consistent under edge cases.
 
-Self-Defense
+**Self-Defense**
 
 Halting a prior imposed binding does not create new structural authority.
 It removes an existing override.
 Responsive force aimed at restoring autonomy does not constitute new binding without agreement.
 It is not new binding because the prior binding already violated autonomy; responsive force merely removes that violation.
 
-Delegation
+**Delegation**
 
 Authority may be delegated through agreement.
 Delegation must remain scope-bound and revocable.
 If delegation becomes irrevocable, it becomes structural authority.
 Irrevocable delegation recreates rulership.
 
-Emergency Authority
+**Emergency Authority**
 
 Temporary structural authority remains authority regardless of duration.
 Time does not alter structure.
 If binding occurs without agreement, structural authority exists — whether exercised briefly, cyclically, or permanently.
 
-Contract Enforcement
+**Contract Enforcement**
 
 Enforcement consistent with prior agreement does not create new binding without agreement.
 Enforcement beyond prior scope does.
@@ -325,15 +317,14 @@ The structure remains internally consistent.
 
 To preserve autonomous coordination among multiple agents:
 
-No rule-structure may embed the authority to bind agents without their agreement.
-Binding must arise from agreement, not imposition.
+- No rule-structure may embed the authority to bind agents without their agreement.
+- Binding must arise from agreement, not imposition.
 
 Agreement thus emerges as the primitive mechanism preserving autonomy.
 
 This prohibition is structurally necessary for stateless qualification.
 
-The invariant:
-Voluntary Order Without Rulers
+Therefore, the invariant emerges: Voluntary Order Without Rulers.
 
 
 ### Identification
@@ -366,10 +357,10 @@ This derivation establishes only the minimal invariant required for stateless qu
 
 It does not:
 
-Define property norms.
-Prescribe economic systems.
-Specify governance mechanisms.
-Resolve historical injustice.
+- Define property norms.
+- Prescribe economic systems.
+- Specify governance mechanisms.
+- Resolve historical injustice.
 
 Those are implementation-level problems.
 
@@ -382,14 +373,14 @@ Each implementation of stateless society must satisfy the invariant derived here
 The previous section derived the invariant required for any system to qualify as stateless:
 Voluntary Order Without Rulers.
 
-This invariant establishes the structural boundary of anarchism.
+This invariant establishes the structural boundary of a stateless society.
 
 If agents may be bound without their agreement, structural authority emerges and the system ceases to be stateless.
 If agents interact through voluntary agreement without rulers, the system satisfies the invariant.
 
-The invariant therefore functions as the defining constraint of anarchism.
+The invariant therefore functions as the defining constraint of a stateless society.
 
-However, anarchist discourse frequently treats anarchism as a collection of competing ideologies: anarcho-communism, anarcho-capitalism, and numerous other variants. These systems are often presented as mutually exclusive definitions of anarchism.
+However, typical discourse on stateless societies treat anarchism as a collection of competing ideologies: anarcho-communism, anarcho-capitalism, and numerous other variants. These systems are often presented as mutually exclusive definitions of anarchism.
 
 From a structural perspective this framing is incorrect.
 
@@ -399,13 +390,13 @@ Within that boundary, many different implementations may exist.
 
 This section therefore introduces a hub-and-spoke model:
 
-The invariant functions as the hub.
-Implementation systems function as spokes.
+- The invariant functions as the hub.
+- Implementation systems function as spokes.
 
 Each spoke proposes a way to organize production, property, or social coordination.
 However, all spokes remain constrained by the same invariant.
 
-If a spoke introduces binding without agreement, the invariant is violated and the system ceases to qualify as anarchism.
+If a spoke introduces binding without agreement, the invariant is violated and the system ceases to qualify as stateless.
 
 The purpose of this section is to clarify this structural relationship.
 
@@ -494,10 +485,10 @@ Disputes stop being resolved through principle and begin being resolved through 
 
 The symptoms are easy to spot:
 
-No shared constraint.
-Disputes resolved by power.
-Power concentrates.
-Hierarchy follows.
+- No shared constraint.
+- Disputes resolved by power.
+- Power concentrates.
+- Hierarchy follows.
 
 We see this pattern constantly.
 
@@ -516,10 +507,10 @@ Different economic systems organize production differently, but they remain subj
 
 If disputes are resolved through power rather than agreement:
 
-No shared constraint exists.
-Disputes are resolved by power.
-Power concentrates.
-Hierarchy follows.
+- No shared constraint exists.
+- Disputes are resolved by power.
+- Power concentrates.
+- Hierarchy follows.
 
 This pattern reflects constraint drift.
 
@@ -557,9 +548,9 @@ So let’s test it.
 
 An agent in a voluntary system must possess:
 
-1. Intentionality
-2. Continuity
-3. Attributability
+- 1. Intentionality
+- 2. Continuity
+- 3. Attributability
 
 
 ### Intentionality
@@ -592,9 +583,7 @@ Without attributability, contracts collapse.
 
 Remove any one of these and voluntary order breaks.
 
-Identity cannot be purely performative or transient.
-It cannot be a label.
-It cannot be a registry entry.
+Identity cannot be purely performative or transient. It cannot be a label. It cannot be a registry entry.
 
 An agent requires intentionality, continuity and attributability.
 
@@ -604,13 +593,14 @@ An agent requires intentionality, continuity and attributability.
 Identity is the persistent locus of agency that preserves these across time and contexts.
 That’s it.
 
-Not a passport.
-Not a biometric record.
-Not a government-issued number.
+- Not a passport.
+- Not a biometric record.
+- Not a government-issued number.
 
 Identity exists wherever agency persists and others can attribute commitments to it.
 
 If it requires a ruler to validate it, it fails.
+
 If it dissolves accountability, it fails.
 
 
@@ -618,11 +608,11 @@ If it dissolves accountability, it fails.
 
 What preserves continuity?
 
-Memory?
-Biology?
-Cryptography?
-Reputation?
-Social recognition?
+- Memory?
+- Biology?
+- Cryptography?
+- Reputation?
+- Social recognition?
 
 The invariant does not prescribe the mechanism.
 
@@ -633,20 +623,20 @@ Continuity is relational.
 
 It does not require:
 
-A central registry.
-A biological definition.
-A state authority.
+- A central registry.
+- A biological definition.
+- A state authority.
 
 It requires recognizability within voluntary networks.
 
 That recognizability may be preserved through:
 
-Reputation systems
-Cryptographic signatures
-Witness attestation
-Web-of-trust models
-Contractual relationships
-Community recognition
+- Reputation systems
+- Cryptographic signatures
+- Witness attestation
+- Web-of-trust models
+- Contractual relationships
+- Community recognition
 
 The hub does not mandate the spoke.
 
@@ -659,18 +649,18 @@ Here’s the real stress test.
 
 Can I discard my identity and escape obligations?
 
-You can discard a name.
-You cannot discard continuity.
-You cannot erase obligations from those who remember.
+- You can discard a name.
+- You cannot discard continuity.
+- You cannot erase obligations from those who remember.
 
 Obligations attach to agency — not to labels.
 
 Changing:
 
-A username
-A cryptographic key
-A geographic location
-A community
+- A username
+- A cryptographic key
+- A geographic location
+- A community
 
 does not discharge obligations if the underlying agency remains continuous.
 
@@ -693,9 +683,10 @@ Test: Can agents act without any traceable continuity?
 **Result:** FAIL
 
 If actions cannot be attributed:
-Contracts cannot be enforced.
-Reputation cannot accumulate.
-Trust fragments.
+
+- Contracts cannot be enforced.
+- Reputation cannot accumulate.
+- Trust fragments.
 
 Total anonymity collapses accountability.
 
@@ -713,11 +704,10 @@ That violates the invariant of "voluntary order without rulers".
 ### Attribution Without Surveillance
 There is a distinction that must be maintained.
 
-Surveillance is continuous, non-consensual observation.
-Attribution is discrete, consent-based verification of commitments.
+- Surveillance is continuous, non-consensual observation.
+- Attribution is discrete, consent-based verification of commitments.
 
-An stateless system requires attribution.
-It does not require surveillance.
+An stateless system requires attribution. It does not require surveillance.
 
 Test: Does attribution require continuous monitoring of agents?
 **Result:** FAIL
@@ -727,20 +717,19 @@ Attribution only requires that past commitments remain linkable to present agenc
 
 Permitted:
 
-Voluntary reputation records
-Cryptographic verification
-Witness testimony
-Mutual attestation
+- Voluntary reputation records
+- Cryptographic verification
+- Witness testimony
+- Mutual attestation
 
 
 Prohibited:
 
-Compulsory tracking
-Forced biometric enrollment
-Continuous monitoring without consent
+- Compulsory tracking
+- Forced biometric enrollment
+- Continuous monitoring without consent
 
-Attribution preserves accountability.
-Surveillance creates rulership.
+Attribution preserves accountability. Surveillance creates rulership.
 
 
 ### Voluntary Recognition
@@ -751,17 +740,15 @@ Recognition is an act of other agents.
 
 An agent is recognized when others:
 
-Accept their commitments as binding.
-Hold them accountable for past actions.
-Treat them as continuous over time.
+- Accept their commitments as binding.
+- Hold them accountable for past actions.
+- Treat them as continuous over time.
 
 Recognition is polycentric.
 
-No single recognition binds all others.
-No registry defines existence.
+No single recognition binds all others. No registry defines existence.
 
-Recognition does not grant permission to be.
-It enables accountability.
+Recognition does not grant permission to be. It enables accountability.
 
 ### Test Cases
 
@@ -798,13 +785,11 @@ The invariant holds.
 
 ### Special Cases
 
-Full agency is not present in all humans at all times.
-Children, temporary incapacity, and permanent cognitive disability require spoke-level frameworks for representation and fiduciary responsibility.
+Full agency is not present in all humans at all times. Children, temporary incapacity, and permanent cognitive disability require spoke-level frameworks for representation and fiduciary responsibility.
 
 These frameworks must themselves respect this constraint and those that follow.
 
-False attribution — claiming to be another agent — violates continuity and attributability.
-Remedies for false attribution will be addressed as coercion and dispute resolution constraints of spoke implementations.
+False attribution — claiming to be another agent — violates continuity and attributability. Remedies for false attribution will be addressed as coercion and dispute resolution constraints of spoke implementations.
 
 
 ### Enforcement Assumption
@@ -813,36 +798,34 @@ Constraint 1 assumes accountability is enforced polycentrically.
 
 Through:
 
-Reputation
-Arbitration
-Insurance
-Bonding
-Exclusion
-Escrow
+- Reputation
+- Arbitration
+- Insurance
+- Bonding
+- Exclusion
+- Escrow
 
-The hub does not prescribe the enforcement mechanism.
-It only requires that identity remain compatible with enforcement without creating a ruler.
+The hub does not prescribe the enforcement mechanism. It only requires that identity remain compatible with enforcement without creating a ruler.
 
 
 ### Observed Result
 
-Partial anonymity is compatible with voluntary order.
-Unaccountable anonymity is not.
+Partial anonymity is compatible with voluntary order. Unaccountable anonymity is not.
 
 Identity must therefore be:
 
-Continuous enough for accountability.
-Voluntarily recognized.
-Free from compulsory infrastructure.
-Compatible with polycentric enforcement.
+- Continuous enough for accountability.
+- Voluntarily recognized.
+- Free from compulsory infrastructure.
+- Compatible with polycentric enforcement.
 
 Anything that collapses accountability or creates a sovereign identity authority fails.
 
 Constraint 1 establishes the foundation.
 
-Without agency, there is no voluntary order.
-Without continuity, there is no obligation.
-Without attributability, there is no contract.
+- Without agency, there is no voluntary order.
+- Without continuity, there is no obligation.
+- Without attributability, there is no contract.
 
 Identity is not a registry entry.
 It is the minimum structure required for freedom to mean anything at all.
@@ -854,30 +837,30 @@ Coercion is the initiated override of an individual’s choice.
 
 And coercion takes many forms:
 
-Physical Coercion
-Institutional Coercion
-Economic Coercion
-Information Coercion
-Threat of Force
-Social Coercion
-Exclusion
-Access, Leverage, and Scope
-Resource Seizure (Theft)
+- Physical Coercion
+- Institutional Coercion
+- Economic Coercion
+- Information Coercion
+- Threat of Force
+- Social Coercion
+- Exclusion
+- Access, Leverage, and Scope
+- Resource Seizure (Theft)
 
 So let's take our invariant "voluntary order without rulers" and apply it to human conflict.
 
 To test it, we must isolate an atomic property of all conflict: initiation.
 
 Initiation, in this model, refers to the first act that violates the voluntary order, specifically through:
-(1) force or threat of force,
-(2) fraud/deception that induces non-voluntary choice, or
-(3) the use of a voluntary agreement to force a choice.
+- (1) force or threat of force,
+- (2) fraud/deception that induces non-voluntary choice, or
+- (3) the use of a voluntary agreement to force a choice.
 
-“Force a choice” in this context means imposing a new obligation, penalty, or restriction not present in the original consent scope.
+**"Force a choice"** in this context means imposing a new obligation, penalty, or restriction not present in the original consent scope.
 
-"Scope" in this context refer to explicit, finite, determinate, bounded and knowable at the time of choice.
+**"Scope"** in this context refer to explicit, finite, determinate, bounded and knowable at the time of choice.
 
-"Excess" means imposing any new obligation, penalty, or restriction not contained in that scope.
+**"Excess"** means imposing any new obligation, penalty, or restriction not contained in that scope.
 
 A clause that allows unilateral, unlimited future obligation expansion constitutes implicit rulership and fails the invariant.
 
@@ -895,9 +878,9 @@ Through this understanding the evaluation becomes simple:
 Does coercing someone violate our invariant of "voluntary order without rulers"?
 Yes.
 
-An initiated override of choice introduces a ruler.
-Rulers in all forms violate the invariant.
-Therefore initiated coercion fails the invariant.
+- An initiated override of choice introduces a ruler.
+- Rulers in all forms violate the invariant.
+- Therefore initiated coercion fails the invariant.
 
 But what about Coercion as a Reaction?
 
@@ -907,24 +890,23 @@ But what about Coercion as a Reaction?
 Let's look at this from the perspective of self defense.
 It's by far the most common use case.
 
-1. Test: Physical Coercion is initiated by party A.
+- 1. Test: Physical Coercion is initiated by party A.
 **Result:** FAIL
    This is a direct action taken to influence Party B into an involuntary action.
 
-2. Test: Party B responds to the initiated coercion with physical coercion.
+- 2. Test: Party B responds to the initiated coercion with physical coercion.
 **Result:** PASS
    Responsive force halts the violation of the invariant rather than creating one.
 
 Since, Party B does not initiate the override but acts to stop it, Party B does not introduce rulership.
 
-The evaluation changes when force is responsive rather than initiated.
-The logical condition being tested is initiation, not force itself.
+The evaluation changes when force is responsive rather than initiated. The logical condition being tested is initiation, not force itself.
 
-In reality, Party B enforces "voluntary order with no rulers" by not allowing coercion to occur.
+In reality, Party B enforces the invariant by not allowing coercion to occur.
 
 This means that self-defense is not coercion, because coercion is defined as initiation.
 
-However there is a line.
+However, there is a line.
 
 Self defense isn't a blank check. It can be abused and taken advantage of.
 Responsive force must be limited to halting or rectifying the initiated violation — not expanding control beyond it.
@@ -941,58 +923,70 @@ Case 1:
 Threat of Force: "I will hurt you if you don't comply."
 
 Test: An initiated communication designed to override choice through fear. It establishes a conditional rulership.
+
 **Result:** FAIL
+
 It's the blueprint for rulership, even if the hammer hasn't dropped.
 
 Case 2:
 Institutional Coercion (e.g., Taxation, Draft)
 
 Test: An organization claims a right to override "voluntary order without rulers" (take property, conscript labor, impose taxation).
+
 **Result:** FAIL
+
 The institution is a literal, formalized ruler.
 
 Case 3:
 Economic Coercion
 
 Test: "Accept this low wage or starve."
+
 **Result:** PASS
 
-If Party A did not first aggress against Party B (e.g., theft, force), then Party A is merely offering terms for voluntary cooperation.
-Party B's lack of alternatives is a condition of reality/scarcity, not an act of initiation by A.
-Withdrawal of an offer is not aggression.
+If Party A did not first aggress against Party B (e.g., theft, force), then Party A is merely offering terms for voluntary cooperation. Party B's lack of alternatives is a condition of reality/scarcity, not an act of initiation by A. Withdrawal of an offer is not aggression.
 
 Test: "Pay me 'protection money' or my gang will burn your shop."
+
 **Result:** FAIL
+
 This is a threat of initiated force disguised as exchange. True voluntary transactions require the absence of prior aggression.
 
 
 ### Social Coercion (Ostracism, Shunning):
 
 Test: A Group Threatening Violence
+
 **Result:** FAIL
+
 A group threatening violence fails our invariant test. While a group can be formed under voluntary order, and a group doesn't necessarily have rulers, the group itself becomes a ruler by threatening or invoking physical coercion.
 
 Test: Refusing to Interact or Do Business With Someone
+
 **Result:** PASS
+
 Exclusion is the foundational right of a voluntary system. It is the mechanism that makes all other rights meaningful.
 
 
 ### Deception & Fraud
 
 Deception / Fraud is the intentional action to induce a non-voluntary choice, through lying or intentional concealment of material facts.
+
 **Result:** FAIL
+
 Deception limits or removes the choice of the individual by hiding the truth. Fraud is a form of deception and as such also fails against the invariant.
 
 Subclass: Information Coercion
 
-   Information Coercion refers strictly to material deception or falsification in the context of inducing agreement.
-   Mere persuasion or rhetorical framing does not constitute coercion unless it involves fraud.
+   Information Coercion refers strictly to material deception or falsification in the context of inducing agreement. Mere persuasion or rhetorical framing does not constitute coercion unless it involves fraud.
 
 
 ### Monopoly without Initiation
 
 Test: What if through purely voluntary exchanges, someone gains control over essential infrastructure?
+
 **Result:** PASS
+
 Monopoly alone doesn't violate the invariant. Only initiated override would.
 
 
@@ -1002,14 +996,17 @@ Does withholding essential resources (water, food, energy) constitute initiation
 
 
 Test: Water company has monopoly over water - charges for service.
+
 **Result:** PASS
+
 The water company is simply offering a scarcity item within a given market. If they didn't create the scarcity, they haven't initiated coercion.
 
 Test: Water company has monopoly over water - withdraws service for demands.
+
 **Result:** Conditional
 
-Withdrawal within existing contract: PASS.
-Withdrawal conditioned on new obligation: FAIL.
+- Withdrawal within existing contract: PASS.
+- Withdrawal conditioned on new obligation: FAIL.
 
 When enforcement exceeds the originally consented terms or alters the scope of obligation rulership is being initiated.
 Not because water is essential.
@@ -1021,33 +1018,25 @@ Simply put, it converts voluntary agreement into a domination mechanism.
 
 ### Access, Leverage, and Scope
 
-Scarcity is a universal condition.
-Time, resources, attention—all are finite.
+Scarcity is a universal condition. Time, resources, attention—all are finite.
 
-In a state of scarcity, every interaction involves leverage.
-I have something you want.
-You have something I need.
-We negotiate.
+In a state of scarcity, every interaction involves leverage. I have something you want. You have something I need. We negotiate.
 
-The invariant does not abolish scarcity.
-It governs how we interact within it.
+The invariant does not abolish scarcity. It governs how we interact within it.
 
-Leverage is the passive fact of having something another values.
+Leverage is the passive fact of having something another values. 
+
 Coercion is the initiated act of using force or fraud to override choice in order to seize it.
 
-When a worker accepts a low wage, the employer's leverage comes from owning capital and offering voluntary exchange.
-The worker's leverage comes from their labor and the ability to refuse.
-The "or starve" condition is imposed by reality, not by the employer's initiation.
-The employer did not create the worker's need to eat.
+When a worker accepts a low wage, the employer's leverage comes from owning capital and offering voluntary exchange. The worker's leverage comes from their labor and the ability to refuse. The "or starve" condition is imposed by reality, not by the employer's initiation. The employer did not create the worker's need to eat.
 
-It's like saying "you're being coercive for not providing for me".
-It would mandate rights to others' resources, which is not permitted by the invariant.
-The only way to enforce that is to break the invariant by initiating coercion.
+It's like saying "you're being coercive for not providing for me". It would mandate rights to others' resources, which is not permitted by the invariant. The only way to enforce that is to break the invariant by initiating coercion.
 
 In summary:
-Scarcity creates leverage.
-Leverage is not coercion.
-Coercion is the initiated violation of choice within the context of scarcity.
+
+- Scarcity creates leverage.
+- Leverage is not coercion.
+- Coercion is the initiated violation of choice within the context of scarcity.
 
 This distinction is the firewall between voluntary exchange and systemic theft.
 
@@ -1058,17 +1047,17 @@ This distinction is the firewall between voluntary exchange and systemic theft.
 Resource Seizure (theft), is the non-consensual appropriation of resources under another’s agency.
 
 What if I take an apple that belongs to someone?
+
 **Result:** FAIL
+
 You have taken a resource that is under another's agency. You may not have used force against them, but you've denied them the choice to give it to you resulting in the override of agency.
 
 
 ### What if a Group Coerces?
 
-The invariant applies to actions.
-A "group" cannot act; only individuals within a group can.
+The invariant applies to actions. A "group" cannot act; only individuals within a group can.
 
-When a group forms to coerce, it's the members' actions that violate our invariant "voluntary order without rulers".
-The "group" is merely the vector. The moral and logical responsibility remains individual.
+When a group forms to coerce, it's the members' actions that violate the invariant. The "group" is merely the vector. The moral and logical responsibility remains individual.
 
 Any coordinated initiation of coercion constitutes rulership regardless of scale. Rulers of any kind violate the invariant.
 
@@ -1076,49 +1065,45 @@ Any coordinated initiation of coercion constitutes rulership regardless of scale
 ### Observed Results of Our Constraint Testing
 
 So we've tested our invariant against all the various forms of coercion including:
-(1) force or threat of force,
-(2) fraud/deception that induces non-voluntary choice, and
-(3) the use of a voluntary agreement to excess beyond its originally consented scope.
+- (1) force or threat of force,
+- (2) fraud/deception that induces non-voluntary choice, and
+- (3) the use of a voluntary agreement to excess beyond its originally consented scope.
 
-We've tested Access, Leverage, and Scope as forms of coercion.
-And every instance of coercion creates a point of rulership.
+We've tested Access, Leverage, and Scope as forms of coercion and every instance of coercion creates a point of rulership.
+
 What unifies every FAIL result?
-
 Not force. Not harm. Not inequality.
+
 Initiation.
 
-In every case that failed, someone acted first to override another's choice.
-In every case that passed, no such first move occurred.
+- In every case that failed, someone acted first to override another's choice. 
+- In every case that passed, no such first move occurred.
 
 This reveals something about the invariant itself:
 "Voluntary order without rulers" is not a prohibition on force — it's a prohibition on the *first* use of force, fraud, or scope expansion.
 
-The rule is not "no coercion."
-The rule is "no initiated coercion."
+The rule is not "no coercion." The rule is "no initiated coercion."
 
-Because once initiation occurs, the responder is no longer choosing freely — they're reacting. And reaction, even forceful reaction, does not create rulership.
-It restores the condition under which voluntary order is possible.
+Because once initiation occurs, the responder is no longer choosing freely — they're reacting. And reaction, even forceful reaction, does not create rulership. It restores the condition under which voluntary order is possible.
 
-This is why the constraint resolves to this single prohibition.
-All else is implementation.
+This is why the constraint resolves to this single prohibition. All else is implementation.
 
-We didn't start with this premise, but it appears to be the logical conclusion.
-Under anarchism, it is the only rule that doesn’t break the model.
-Everything else fails.
+We didn't start with this premise, but it appears to be the logical conclusion. Under anarchism, it is the only rule that doesn’t break the model. Everything else fails.
 
 This constraint — No Initiated Coercion — now becomes our first building block.
+
 The next constraints (Privacy, Transparency, Exit) will be derived from the same invariant.
 
 ### Clarifications for Implementation (Not Modifications)
 To prevent common misinterpretations by future implementers, the following clarifications are noted:
 
-"Force" vs. "Coercion": The document correctly distinguishes these. Force is a physical capability; coercion is its initiated application to override choice. This distinction is critical for understanding defensive and rectificatory force.
+**"Force" vs. "Coercion":** The document correctly distinguishes these. Force is a physical capability; coercion is its initiated application to override choice. This distinction is critical for understanding defensive and rectificatory force.
 
-The "Truth Primitive": As noted, Information Coercion is correctly subsumed under fraud/deception. The model implicitly establishes truthful disclosure within the context of a proposed agreement as a prerequisite for voluntary choice. Fraud vitiates consent by violating this primitive.
+**The "Truth Primitive":** As noted, Information Coercion is correctly subsumed under fraud/deception. The model implicitly establishes truthful disclosure within the context of a proposed agreement as a prerequisite for voluntary choice. Fraud vitiates consent by violating this primitive.
 
-The "Scope" Mechanism: The prohibition on using a voluntary agreement to impose "excess beyond its originally consented scope" is the model's immune response to contractual Trojan horses. This prevents voluntary agreements from metastasizing into instruments of domination. Future Constraints within this RFC covering Transparency and Exit will provide the mechanisms to operationalize this.
+**The "Scope" Mechanism:** The prohibition on using a voluntary agreement to impose "excess beyond its originally consented scope" is the model's immune response to contractual Trojan horses. This prevents voluntary agreements from metastasizing into instruments of domination. Future Constraints within this RFC covering Transparency and Exit will provide the mechanisms to operationalize this.
 
-Historical vs. Prophylactic Justice: The constraint is forward-looking (prophylactic). It establishes the rule from point T=0 forward. It is silent on rectification for historical injustices predating T=0. Implementers in spoke societies must address this transition, but any rectification that itself uses initiated coercion would violate the new invariant.
+**Historical vs. Prophylactic Justice:** The constraint is forward-looking (prophylactic). It establishes the rule from point T=0 forward. It is silent on rectification for historical injustices predating T=0. Implementers in spoke societies must address this transition, but any rectification that itself uses initiated coercion would violate the new invariant.
 
 
 ## 5. Constraint 3: Privacy
@@ -1126,22 +1111,25 @@ Historical vs. Prophylactic Justice: The constraint is forward-looking (prophyla
 Privacy is defined as:
 The voluntary control over the disclosure of information concerning oneself and one’s voluntary associations.
 
-Privacy protects that control within legitimate domain boundaries.
-It does not grant authority over truthful speech generated by another agent within that agent’s domain.
+Privacy protects that control within legitimate domain boundaries. It does not grant authority over truthful speech generated by another agent within that agent’s domain.
 
 Legitimate domain includes information generated within one’s person and voluntarily directed communications, and excludes independently observed facts and experiences generated by other agents within their own domains.
 
 
 ### Privacy as Absolutes
+
 Case 1:  No Privacy
+
 Test: Is all information about an individual accessible without consent?
 
 **Result:**
-If disclosure is consensual: PASS.
-If disclosure is non-consensual: FAIL.
+- If disclosure is consensual: PASS.
+- If disclosure is non-consensual: FAIL.
 
 Case 2:  Absolute Privacy
+
 Test: Can an individual prohibit others from speaking truthfully about their own experiences?
+
 **Result:** FAIL
 
 If I can prevent you from speaking truthfully about your own experiences with me, I assert control over your speech and memory.
@@ -2412,7 +2400,43 @@ If no, it does not.
 The invariant holds.
 
 
-## Closing
+## Novel Contributions
+
+This RFC proposes several contributions to the structural analysis of stateless systems:
+
+1. **Formal Derivation of a Stateless Invariant**
+
+   Rather than treating anarchism as a political preference or ideological tradition, this RFC derives a minimal invariant required for stateless qualification: voluntary order without rulers.
+
+2. **Hub-and-Spoke Classification Model**
+
+   The RFC distinguishes between a fixed structural invariant (the hub) and variable implementation systems (the spokes), allowing multiple social, economic, and institutional models to be evaluated against a common constraint.
+
+3. **Binary Qualification Framework**
+
+   Statelessness is treated as a structural classification problem rather than a spectrum. Systems either satisfy the invariant or fail qualification.
+
+4. **Constraint Drift Model**
+
+   The RFC identifies the loss of invariant-constraining power as a recurring failure mode through which voluntary systems transition toward hierarchy.
+
+5. **Six Primitive Constraints**
+
+   The RFC derives six structural constraints required for preserving the invariant:
+
+   * Agency & Identity
+   * Coercion
+   * Privacy
+   * Transparency
+   * Exit
+   * Interoperability
+
+6. **Agent-Centric Interoperability**
+
+   Interoperability is modeled as coordination between agents rather than between sovereign systems, allowing plural voluntary frameworks to coexist without universal jurisdiction.
+
+These contributions are presented as structural claims subject to critique, refinement, and testing.
+
 
 ## Revision History
 

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+
+message: "If you reference or use the Stateless Society Specification, please cite RFC-0001 as below."
+
+title: "Stateless Society Specification"
+version: "1.2.0"
+date-released: 2026-09-02
+
+authors:
+  - family-names: "Simnett"
+    given-names: "Rick"
+
+url: "https://github.com/TheStatelessCo/society"
+repository-code: "https://github.com/TheStatelessCo/society"
+license: "CC-BY-4.0"
+
+preferred-citation:
+  type: report
+
+  authors:
+    - family-names: "Simnett"
+      given-names: "Rick"
+
+  title: "RFC-0001: A Structural Definition and Classification Model for Stateless Societies"
+
+  institution:
+    name: "The Stateless Co."
+
+  year: 2026
+  month: 9
+  version: "1.2.0"
+
+  url: "https://github.com/TheStatelessCo/society/releases/tag/v1.2.0"

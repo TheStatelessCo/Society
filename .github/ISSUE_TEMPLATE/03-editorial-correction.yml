@@ -1,0 +1,86 @@
+name: Editorial / Specification Correction
+description: Report a typo, formatting problem, broken reference, or unclear specification language.
+title: "[Editorial]: "
+labels: ["editorial"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before submitting
+
+        Use this form for non-structural corrections to an RFC.
+
+        Examples include:
+
+        - spelling or grammar errors,
+        - formatting problems,
+        - broken links or cross-references,
+        - inconsistent terminology,
+        - unclear wording,
+        - citation or metadata errors, or
+        - other editorial problems that do not challenge the model itself.
+
+        Structural objections and counterexamples should use their dedicated Issue forms.
+
+  - type: input
+    id: rfc
+    attributes:
+      label: RFC
+      description: Which RFC contains the issue?
+      placeholder: RFC-0001
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Section or Location
+      description: Identify where the issue appears.
+      placeholder: "Constraint 3 — Privacy / Example: Doxxing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Text or Problem
+      description: Quote the relevant text or describe the formatting/reference problem.
+      placeholder: Paste the affected language or explain the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed Correction
+      description: Provide the corrected wording or describe the desired fix.
+      placeholder: Show what you believe should replace or correct the current version.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for the Correction
+      description: Briefly explain why the change improves accuracy, clarity, or consistency.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Include related Issues, Discussions, references, screenshots, or other useful context.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission Check
+      options:
+        - label: I have searched existing Issues and Discussions for this correction.
+          required: true
+        - label: This is an editorial or specification correction, not a structural objection or counterexample.
+          required: true

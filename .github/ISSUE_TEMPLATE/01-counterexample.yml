@@ -1,0 +1,115 @@
+name: Counterexample
+description: Submit a case that may expose a classification failure in an RFC.
+title: "[Counterexample]: "
+labels: ["counterexample"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before submitting
+
+        A counterexample should demonstrate a classification failure in the specification, not merely disagreement with its premises or conclusions.
+
+        The strongest counterexample is either:
+
+        - a system with rulers that **PASSES** the classifier, or
+        - a plainly stateless system that necessarily **FAILS** it.
+
+        Please make the case as concrete and testable as possible.
+
+  - type: input
+    id: rfc
+    attributes:
+      label: RFC
+      description: Which RFC are you challenging?
+      placeholder: RFC-0001
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section or Constraint
+      description: Identify the section, definition, constraint, or test involved.
+      placeholder: "Constraint 5 — Exit"
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Proposed System or Scenario
+      description: Describe the system or scenario being tested.
+      placeholder: Describe the actors, rules, relationships, obligations, and relevant conditions.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rulers
+    attributes:
+      label: Does the system contain rulers?
+      options:
+        - "Yes"
+        - "No"
+        - "Uncertain"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: classifier-result
+    attributes:
+      label: What result does the RFC produce?
+      options:
+        - "PASS"
+        - "FAIL"
+        - "CONDITIONAL"
+        - "Cannot determine"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: expected-result
+    attributes:
+      label: What result do you believe it should produce?
+      options:
+        - "PASS"
+        - "FAIL"
+        - "CONDITIONAL"
+        - "Cannot determine"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contradiction
+    attributes:
+      label: Explain the Classification Failure
+      description: Explain why the RFC's classification is structurally incorrect or inconsistent.
+      placeholder: Show exactly where the classifier produces the wrong result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Relevant Definition or Derivation
+      description: Identify the language or reasoning in the RFC that produces the claimed failure.
+      placeholder: Quote or reference the relevant definition, derivation, test, or constraint.
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Include any additional reasoning, examples, references, or related discussions.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission Check
+      options:
+        - label: I have searched existing Issues and Discussions for this counterexample.
+          required: true
+        - label: I am presenting a specific classification problem rather than general disagreement with the specification.
+          required: true

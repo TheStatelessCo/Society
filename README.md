@@ -4,6 +4,8 @@
 
 This repository contains RFC-0001, a formal structural specification for evaluating whether a social system qualifies as stateless.
 
+RFC-0001 is published by **StatelessCo** and authored by Rick Simnett. Copyright is held by The Stateless Holdings Company and the work is released under CC BY 4.0 (see LICENSE.md).
+
 The RFC derives a single invariant:
 
 > **Voluntary Order Without Rulers**
@@ -69,7 +71,7 @@ RFC-0001 is a single derivation and should be read in sequence:
 1. Deriving the Invariant
 2. Implications of the Invariant
 3. Constraint 1: Agency & Identity
-4. Constraint 2: Coercion
+4. Constraint 2: No Initiated Coercion
 5. Constraint 3: Privacy
 6. Constraint 4: Transparency
 7. Constraint 5: Exit
@@ -134,11 +136,9 @@ Violation of any condition constitutes structural failure.
 ```text
 .
 ├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CHANGELOG.md
+├── LICENSE.md
 └── rfc/
-    └── 0001-voluntary-order-without-rulers.md
+    └── 0001-A-Structural-Definition-and-Classification-Model-for-Stateless-Societies.md
 ```
 
 ---
@@ -186,6 +186,15 @@ Any future proposal must remain compatible with the invariant defined in RFC-000
 
 ---
 
+## Links
+
+- Facebook: [Rick Simnett](https://www.facebook.com/people/Rick-Simnett/61578341190147/)
+- Instagram: [@ricksimnett](https://www.instagram.com/ricksimnett)
+- [statelessbooks.com](https://www.statelessbooks.com/)
+- [theblueprintforastatelesssociety.com](https://www.theblueprintforastatelesssociety.com/)
+
+---
+
 ## License
 
-See LICENSE for usage, distribution, and attribution terms.
+This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See LICENSE.md for the full license text.

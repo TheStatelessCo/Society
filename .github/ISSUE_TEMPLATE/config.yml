@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Discussions
+    url: https://github.com/TheStatelessCo/society/discussions
+    about: Ask questions, debate the specification, explore edge cases, or develop an objection before opening a formal Issue.
